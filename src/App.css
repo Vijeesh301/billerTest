@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.sideBar {
+    width: 4.1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 40px 10px;
+    height: 100vh;
+}
+
+.sideBarBig {
+    height : 100vh;
+}
+
+.bottomCard {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 2rem;
+    margin-left: 2rem
+}
+
+.home-icon :hover{
+    display: none;
+}
+
+.home :hover{
+    display: flex;
+}
+
+.home {
+    display: none;
+}
+

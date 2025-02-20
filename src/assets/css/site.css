@@ -1,0 +1,70 @@
+#dragDropArea {
+    border: 2px dashed #007bff;
+    background-color: #f8f9fa;
+    min-height: 150px;
+    min-width:100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007bff;
+}
+#dragDropArea.dragover {
+  background-color: #e9f7fd;
+}
+#statusMessage {
+    margin-top: 20px;
+}
+.has-error {
+    border-color: red;
+}
+.error {
+    color: red;
+}
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+.btn-space {
+    margin-right: 5px;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+    padding: 8px 16px !important;
+    font-size: .9rem !important;
+    font-weight: 500;
+}
+div.dataTables_wrapper div.dataTables_filter label {
+    color: #111111 !important;
+}
+.lable_mute{
+    font-size:11px;
+}
+.chbstatus{
+    display:inline;
+    margin-left:10px;
+
+}
+.form-control {
+    font-size: 1rem;
+}
+.btn-space {
+    margin-right: 5px;
+}
+.text-dangers {
+    color: #e70505 !important;
+}
+.form-control {
+    font-size: 1rem;
+}
+
+[data-bs-theme=dark] .cke_button_label, [data-bs-theme=dark] .cke_combo_text, [data-bs-theme=dark] .col-form-label, [data-bs-theme=dark] .dtp .dtp-picker-time > a, [data-bs-theme=dark] .dtp table.dtp-picker-days tr > td > a, [data-bs-theme=dark] .dtp table.dtp-picker-days tr > th, [data-bs-theme=dark] .form-label, [data-bs-theme=dark] .noUi-tooltip, [data-bs-theme=dark] .picker, [data-bs-theme=dark] .ql-snow .ql-picker.ql-header .ql-picker-item::before, [data-bs-theme=dark] .ql-snow .ql-picker.ql-header .ql-picker-label::before, [data-bs-theme=dark] .text-dark {
+    color: #c6d1e2 !important
+}
+
+[data-bs-theme=dark] .table > :not(caption) > * > * {
+    color: #c6d1e2 !important
+}
+
+.lstClinic {
+    max-width: 345px !important;
+    max-height: 80px !important;
+}

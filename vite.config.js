@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  base: "/billerTest/"
+  base: "https://vijeesh301.github.io/billerTest/"
 })

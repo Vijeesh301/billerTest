@@ -4,9 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/Vijeesh301/",
   plugins: [
     tailwindcss(),
     react()
   ],
-  base: "/Vijeesh301/"
 })

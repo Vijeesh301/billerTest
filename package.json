@@ -1,11 +1,12 @@
 {
   "name": "task",
-  "private": false,
+  "private": true,
+  "homepage": "https://vijeesh301.github.io/billerTest/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build --output public",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"

@@ -4,9 +4,12 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  build: {
+    outDir: "build",
+  },
+  base: "/billerTest/",
   plugins: [
     tailwindcss(),
     react()
   ],
-  base: "https://vijeesh301.github.io/billerTest/"
 })

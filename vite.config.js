@@ -14,6 +14,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig(({ mode }) => {
   return {
     plugins: [react(), tailwindcss()],
-    base: mode === 'production' ? '/billerTest' : '/'
+    base: mode === 'production' ? '/billerTest/' : '/'
   }
 })

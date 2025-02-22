@@ -5,9 +5,9 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <BrowserRouter>
+  // <StrictMode>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
-  </StrictMode>
+  // </StrictMode>
 );

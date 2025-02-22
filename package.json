@@ -1,6 +1,6 @@
 {
   "name": "task",
-  "private": true,
+  "private": false,
   "homepage":"https://Vijeesh301.gihub.io/billerTest",
   "version": "0.0.0",
   "type": "module",

@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename={https://github.com/Vijeesh301/billerTestprocess.env.PUBLIC_URL}>
+    <BrowserRouter basename="/Vijeesh301/">
       <App />
     </BrowserRouter>
   </StrictMode>
